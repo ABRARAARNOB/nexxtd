@@ -22,6 +22,10 @@ import {
   Moon
 } from "lucide-react";
 import { useState, useEffect } from "react";
+<<<<<<< HEAD
+=======
+import logo from "./assets/logo.svg";
+>>>>>>> 265b556 (Add logo asset and display it in navbar/footer)
 
 const Navbar = ({ isDark, toggleTheme }: { isDark: boolean; toggleTheme: () => void }) => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -38,9 +42,18 @@ const Navbar = ({ isDark, toggleTheme }: { isDark: boolean; toggleTheme: () => v
   return (
     <header className={`fixed top-0 w-full z-50 transition-all duration-500 flex justify-center px-6 ${isScrolled ? "py-4" : "py-8"}`}>
       <nav className={`w-full max-w-7xl flex items-center justify-between px-8 py-4 transition-all duration-500 rounded-full border ${isScrolled ? "subtle-glass shadow-2xl backdrop-blur-xl border-white/5 dark:border-white/10 light:border-black/5" : "bg-transparent border-transparent"}`}>
+<<<<<<< HEAD
         <div className="text-xl font-black tracking-tighter text-white dark:text-white light:text-black flex items-center gap-2">
           <span className="w-2 h-2 bg-primary rounded-full"></span>
           NEXXTD
+=======
+        <div className="flex items-center gap-3">
+          <img src={logo} alt="NEXXTD logo" className="h-10 w-auto" />
+          <div className="text-xl font-black tracking-tighter text-white dark:text-white light:text-black flex items-center gap-2">
+            <span className="w-2 h-2 bg-primary rounded-full"></span>
+            NEXXTD
+          </div>
+>>>>>>> 265b556 (Add logo asset and display it in navbar/footer)
         </div>
         
         {/* Desktop Nav */}
@@ -515,10 +528,19 @@ const Footer = () => {
     <footer className="bg-surface dark:bg-surface light:bg-white py-24 border-t border-white/5 dark:border-white/5 light:border-black/5 transition-colors duration-300">
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-start gap-16 mb-24">
+<<<<<<< HEAD
           <div>
             <div className="text-xl font-black text-white dark:text-white light:text-black tracking-tighter mb-6 flex items-center gap-2">
               <span className="w-2 h-2 bg-primary rounded-full"></span>
               NEXXTD
+=======
+            <div>
+            <div className="flex items-center gap-3 mb-6">
+              <img src={logo} alt="NEXXTD logo" className="h-10 w-auto" />
+              <div className="text-xl font-black text-white dark:text-white light:text-black tracking-tighter">
+                NEXXTD
+              </div>
+>>>>>>> 265b556 (Add logo asset and display it in navbar/footer)
             </div>
             <p className="text-sm text-on-surface-variant dark:text-on-surface-variant light:text-slate-500 max-w-xs leading-relaxed font-bold">
               The digital foundation for professional talent. Architecture for the web.

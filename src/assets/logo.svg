@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-label="NEXXTD logo">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0ea5e9" />
+      <stop offset="100%" stop-color="#7c3aed" />
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="24" fill="#020202" />
+  <path d="M26 22 L26 98 L42 98 L42 58 L78 98 L78 22 L62 22 L62 54 L26 22 Z" fill="#ffffff" />
+  <path d="M82 22 H104 C110.627 22 116 27.373 116 34 V86 C116 92.627 110.627 98 104 98 H82 V84 H104 C106.209 84 108 82.209 108 80 V40 C108 37.791 106.209 36 104 36 H82 V22 Z" fill="url(#gradient)" />
+</svg>
